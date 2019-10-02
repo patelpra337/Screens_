@@ -138,9 +138,19 @@
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ySZ-sg-NN7"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Yellow" id="nfj-TN-ZAO"/>
+                    <navigationItem key="navigationItem" title="Yellow" id="nfj-TN-ZAO">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Red" id="P0a-gr-ykA"/>
+                            <barButtonItem title="Done" id="zan-jC-CVP">
+                                <connections>
+                                    <segue destination="KBh-kv-UjX" kind="unwind" unwindAction="unwindToRed:" id="gTR-zp-ouI"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10x-2O-qBl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="KBh-kv-UjX" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3225" y="-703"/>
         </scene>
