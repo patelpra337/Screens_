@@ -14,6 +14,8 @@
 		AB2ECD77234437470004C674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2ECD75234437470004C674 /* LaunchScreen.storyboard */; };
 		AB2ECD7F234440160004C674 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2ECD7E234440160004C674 /* RedViewController.swift */; };
 		AB2ECD81234440440004C674 /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2ECD80234440440004C674 /* NumberedViewController.swift */; };
+		AB2ECD8323444CAB0004C674 /* Purple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2ECD8223444CAB0004C674 /* Purple.storyboard */; };
+		AB2ECD8523444DD00004C674 /* Orange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2ECD8423444DD00004C674 /* Orange.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AB2ECD78234437470004C674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2ECD7E234440160004C674 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		AB2ECD80234440440004C674 /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		AB2ECD8223444CAB0004C674 /* Purple.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Purple.storyboard; sourceTree = "<group>"; };
+		AB2ECD8423444DD00004C674 /* Orange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orange.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				AB2ECD7E234440160004C674 /* RedViewController.swift */,
 				AB2ECD80234440440004C674 /* NumberedViewController.swift */,
 				AB2ECD70234437420004C674 /* Main.storyboard */,
+				AB2ECD8223444CAB0004C674 /* Purple.storyboard */,
+				AB2ECD8423444DD00004C674 /* Orange.storyboard */,
 				AB2ECD73234437470004C674 /* Assets.xcassets */,
 				AB2ECD75234437470004C674 /* LaunchScreen.storyboard */,
 				AB2ECD78234437470004C674 /* Info.plist */,
@@ -128,8 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2ECD8323444CAB0004C674 /* Purple.storyboard in Resources */,
 				AB2ECD77234437470004C674 /* LaunchScreen.storyboard in Resources */,
 				AB2ECD74234437470004C674 /* Assets.xcassets in Resources */,
+				AB2ECD8523444DD00004C674 /* Orange.storyboard in Resources */,
 				AB2ECD72234437420004C674 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

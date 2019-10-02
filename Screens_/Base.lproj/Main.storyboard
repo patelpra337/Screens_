@@ -62,6 +62,16 @@
             </objects>
             <point key="canvasLocation" x="1700" y="51"/>
         </scene>
+        <!--Purple-->
+        <scene sceneID="oKU-2E-BLJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Purple" id="cJP-84-TZ4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mOy-xC-e45"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R9A-qs-1a9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2985" y="-84"/>
+        </scene>
         <!--Red-->
         <scene sceneID="0TE-40-JDT">
             <objects>
@@ -117,11 +127,18 @@
                         <viewLayoutGuide key="safeArea" id="DCe-b1-luU"/>
                     </view>
                     <navigationItem key="navigationItem" title="Green" id="t1o-vH-S2X">
-                        <barButtonItem key="rightBarButtonItem" title="Yellow" id="7uQ-hg-cmA">
-                            <connections>
-                                <segue destination="RWR-pd-exS" kind="show" id="QwK-BB-OWD"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Yellow" id="7uQ-hg-cmA">
+                                <connections>
+                                    <segue destination="RWR-pd-exS" kind="show" id="QwK-BB-OWD"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Purple" id="V5S-f5-2be">
+                                <connections>
+                                    <segue destination="cJP-84-TZ4" kind="show" id="6jj-QV-tm6"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nMi-ae-2wE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
